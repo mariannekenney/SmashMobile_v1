@@ -150,6 +150,11 @@
 		0548173E20BDD29100ED9D8C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0548174020BDD2A500ED9D8C /* LogInViewController.swift */,
+				0548174220BDD2F700ED9D8C /* MainViewController.swift */,
+				0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */,
+				0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */,
+				0548174820BDDA0500ED9D8C /* IndividualViewController.swift */,
 				0548175120BDDA4100ED9D8C /* Recruiter */,
 				0548175020BDDA3C00ED9D8C /* HiringManager */,
 			);
@@ -160,15 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				0548171420BDC5DD00ED9D8C /* HiringManager.storyboard */,
-				0548174020BDD2A500ED9D8C /* LogInViewController.swift */,
-				0548174220BDD2F700ED9D8C /* MainViewController.swift */,
 				0548174420BDD9D200ED9D8C /* RequestsTableViewController.swift */,
 				0548175220BDDA6200ED9D8C /* ReviewedTableViewController.swift */,
 				0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */,
-				0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */,
 				0548174A20BDDA2000ED9D8C /* FavoritesTableViewController.swift */,
-				0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */,
-				0548174820BDDA0500ED9D8C /* IndividualViewController.swift */,
 			);
 			path = HiringManager;
 			sourceTree = "<group>";
