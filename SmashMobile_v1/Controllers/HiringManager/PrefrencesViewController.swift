@@ -10,6 +10,7 @@ import UIKit
 
 class PrefrencesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var table2: UITableView!
     @IBOutlet weak var table: UITableView!
     
     override func viewDidLoad() {
@@ -23,13 +24,27 @@ class PrefrencesViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (tableView == table2) {
+            return 3
+        }
         return 7
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tags", for: indexPath)
-        let rows = ["Java", "Python", "Test cases", "C++", "Swift", "BA Computer Science", "Microsoft"]
-        if (indexPath.row < 5) {
+        var rows = ["Java", "Python", "Test cases", "C++", "Swift", "BA Computer Science", "Microsoft"]
+        if (tableView == table) {
+            
+            if (indexPath.row < 5) {
+                cell.accessoryType = .checkmark
+            } else {
+                cell.accessoryType = .none
+            }
+            cell.textLabel?.text = rows[indexPath.row]
+            return cell
+        }
+        rows = ["Alexander Hamilton", "Abraham Lincoln", "George Washington"]
+        if (indexPath.row < 2) {
             cell.accessoryType = .checkmark
         } else {
             cell.accessoryType = .none
