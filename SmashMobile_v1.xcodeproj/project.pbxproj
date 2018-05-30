@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0548170F20BDC5DD00ED9D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548170E20BDC5DD00ED9D8C /* AppDelegate.swift */; };
-		0548171620BDC5DD00ED9D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0548171420BDC5DD00ED9D8C /* Main.storyboard */; };
+		0548171620BDC5DD00ED9D8C /* HiringManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0548171420BDC5DD00ED9D8C /* HiringManager.storyboard */; };
 		0548171820BDC5DE00ED9D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0548171720BDC5DE00ED9D8C /* Assets.xcassets */; };
 		0548171B20BDC5DE00ED9D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0548171920BDC5DE00ED9D8C /* LaunchScreen.storyboard */; };
 		0548172620BDC5DE00ED9D8C /* SmashMobile_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548172520BDC5DE00ED9D8C /* SmashMobile_v1Tests.swift */; };
 		0548173120BDC5DE00ED9D8C /* SmashMobile_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548173020BDC5DE00ED9D8C /* SmashMobile_v1UITests.swift */; };
 		0548174120BDD2A500ED9D8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174020BDD2A500ED9D8C /* LogInViewController.swift */; };
 		0548174320BDD2F700ED9D8C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174220BDD2F700ED9D8C /* MainViewController.swift */; };
+		0548174520BDD9D200ED9D8C /* RequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174420BDD9D200ED9D8C /* RequestsTableViewController.swift */; };
+		0548174720BDD9E100ED9D8C /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */; };
+		0548174920BDDA0500ED9D8C /* IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174820BDDA0500ED9D8C /* IndividualViewController.swift */; };
+		0548174B20BDDA2000ED9D8C /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174A20BDDA2000ED9D8C /* FavoritesTableViewController.swift */; };
+		0548174D20BDDA3000ED9D8C /* PrefrencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */; };
+		0548174F20BDDA3900ED9D8C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */; };
+		0548175320BDDA6200ED9D8C /* ReviewedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548175220BDDA6200ED9D8C /* ReviewedTableViewController.swift */; };
+		058EFBD420BEE23B00AB6306 /* Temp_DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EFBD320BEE23B00AB6306 /* Temp_DataModel.swift */; };
+		058EFBD920BEE4D300AB6306 /* StructObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EFBD820BEE4D300AB6306 /* StructObjects.swift */; };
+		058F04EC20BDF0A7004A4EEB /* Recruiter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,7 @@
 /* Begin PBXFileReference section */
 		0548170B20BDC5DD00ED9D8C /* SmashMobile_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashMobile_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0548170E20BDC5DD00ED9D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0548171520BDC5DD00ED9D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0548171520BDC5DD00ED9D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HiringManager.storyboard; sourceTree = "<group>"; };
 		0548171720BDC5DE00ED9D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0548171A20BDC5DE00ED9D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0548171C20BDC5DE00ED9D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,16 @@
 		0548173220BDC5DE00ED9D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0548174020BDD2A500ED9D8C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		0548174220BDD2F700ED9D8C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0548174420BDD9D200ED9D8C /* RequestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewController.swift; sourceTree = "<group>"; };
+		0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		0548174820BDDA0500ED9D8C /* IndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualViewController.swift; sourceTree = "<group>"; };
+		0548174A20BDDA2000ED9D8C /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefrencesViewController.swift; sourceTree = "<group>"; };
+		0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0548175220BDDA6200ED9D8C /* ReviewedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewedTableViewController.swift; sourceTree = "<group>"; };
+		058EFBD320BEE23B00AB6306 /* Temp_DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp_DataModel.swift; sourceTree = "<group>"; };
+		058EFBD820BEE4D300AB6306 /* StructObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructObjects.swift; sourceTree = "<group>"; };
+		058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recruiter.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,9 @@
 		0548170D20BDC5DD00ED9D8C /* SmashMobile_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				058EFBD520BEE24300AB6306 /* Data */,
 				0548173E20BDD29100ED9D8C /* Controllers */,
 				0548170E20BDC5DD00ED9D8C /* AppDelegate.swift */,
-				0548171420BDC5DD00ED9D8C /* Main.storyboard */,
 				0548171720BDC5DE00ED9D8C /* Assets.xcassets */,
 				0548171920BDC5DE00ED9D8C /* LaunchScreen.storyboard */,
 				0548171C20BDC5DE00ED9D8C /* Info.plist */,
@@ -130,10 +150,44 @@
 		0548173E20BDD29100ED9D8C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0548174020BDD2A500ED9D8C /* LogInViewController.swift */,
-				0548174220BDD2F700ED9D8C /* MainViewController.swift */,
+				0548175120BDDA4100ED9D8C /* Recruiter */,
+				0548175020BDDA3C00ED9D8C /* HiringManager */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0548175020BDDA3C00ED9D8C /* HiringManager */ = {
+			isa = PBXGroup;
+			children = (
+				0548171420BDC5DD00ED9D8C /* HiringManager.storyboard */,
+				0548174020BDD2A500ED9D8C /* LogInViewController.swift */,
+				0548174220BDD2F700ED9D8C /* MainViewController.swift */,
+				0548174420BDD9D200ED9D8C /* RequestsTableViewController.swift */,
+				0548175220BDDA6200ED9D8C /* ReviewedTableViewController.swift */,
+				0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */,
+				0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */,
+				0548174A20BDDA2000ED9D8C /* FavoritesTableViewController.swift */,
+				0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */,
+				0548174820BDDA0500ED9D8C /* IndividualViewController.swift */,
+			);
+			path = HiringManager;
+			sourceTree = "<group>";
+		};
+		0548175120BDDA4100ED9D8C /* Recruiter */ = {
+			isa = PBXGroup;
+			children = (
+				058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */,
+			);
+			path = Recruiter;
+			sourceTree = "<group>";
+		};
+		058EFBD520BEE24300AB6306 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				058EFBD320BEE23B00AB6306 /* Temp_DataModel.swift */,
+				058EFBD820BEE4D300AB6306 /* StructObjects.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0548171B20BDC5DE00ED9D8C /* LaunchScreen.storyboard in Resources */,
+				058F04EC20BDF0A7004A4EEB /* Recruiter.storyboard in Resources */,
 				0548171820BDC5DE00ED9D8C /* Assets.xcassets in Resources */,
-				0548171620BDC5DD00ED9D8C /* Main.storyboard in Resources */,
+				0548171620BDC5DD00ED9D8C /* HiringManager.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058EFBD920BEE4D300AB6306 /* StructObjects.swift in Sources */,
+				0548175320BDDA6200ED9D8C /* ReviewedTableViewController.swift in Sources */,
 				0548174320BDD2F700ED9D8C /* MainViewController.swift in Sources */,
+				0548174920BDDA0500ED9D8C /* IndividualViewController.swift in Sources */,
+				0548174720BDD9E100ED9D8C /* MenuTableViewController.swift in Sources */,
+				0548174520BDD9D200ED9D8C /* RequestsTableViewController.swift in Sources */,
 				0548174120BDD2A500ED9D8C /* LogInViewController.swift in Sources */,
+				0548174D20BDDA3000ED9D8C /* PrefrencesViewController.swift in Sources */,
+				0548174B20BDDA2000ED9D8C /* FavoritesTableViewController.swift in Sources */,
 				0548170F20BDC5DD00ED9D8C /* AppDelegate.swift in Sources */,
+				0548174F20BDDA3900ED9D8C /* SettingsViewController.swift in Sources */,
+				058EFBD420BEE23B00AB6306 /* Temp_DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +369,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0548171420BDC5DD00ED9D8C /* Main.storyboard */ = {
+		0548171420BDC5DD00ED9D8C /* HiringManager.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0548171520BDC5DD00ED9D8C /* Base */,
 			);
-			name = Main.storyboard;
+			name = HiringManager.storyboard;
 			sourceTree = "<group>";
 		};
 		0548171920BDC5DE00ED9D8C /* LaunchScreen.storyboard */ = {
