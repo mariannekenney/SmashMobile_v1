@@ -25,6 +25,9 @@
 		058EFBD420BEE23B00AB6306 /* Temp_DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EFBD320BEE23B00AB6306 /* Temp_DataModel.swift */; };
 		058EFBD920BEE4D300AB6306 /* StructObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EFBD820BEE4D300AB6306 /* StructObjects.swift */; };
 		058F04EC20BDF0A7004A4EEB /* Recruiter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */; };
+		05998FFC20C044C50019809F /* SlatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05998FFB20C044C50019809F /* SlatesTableViewController.swift */; };
+		05998FFE20C044D60019809F /* NewSlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05998FFD20C044D60019809F /* NewSlateViewController.swift */; };
+		0599900020C044E50019809F /* RecievedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05998FFF20C044E50019809F /* RecievedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		058EFBD320BEE23B00AB6306 /* Temp_DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp_DataModel.swift; sourceTree = "<group>"; };
 		058EFBD820BEE4D300AB6306 /* StructObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructObjects.swift; sourceTree = "<group>"; };
 		058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recruiter.storyboard; sourceTree = "<group>"; };
+		05998FFB20C044C50019809F /* SlatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlatesTableViewController.swift; sourceTree = "<group>"; };
+		05998FFD20C044D60019809F /* NewSlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSlateViewController.swift; sourceTree = "<group>"; };
+		05998FFF20C044E50019809F /* RecievedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 				0548174620BDD9E100ED9D8C /* MenuTableViewController.swift */,
 				0548174E20BDDA3900ED9D8C /* SettingsViewController.swift */,
 				0548174820BDDA0500ED9D8C /* IndividualViewController.swift */,
+				0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */,
 				0548175120BDDA4100ED9D8C /* Recruiter */,
 				0548175020BDDA3C00ED9D8C /* HiringManager */,
 			);
@@ -167,7 +174,6 @@
 				0548171420BDC5DD00ED9D8C /* HiringManager.storyboard */,
 				0548174420BDD9D200ED9D8C /* RequestsTableViewController.swift */,
 				0548175220BDDA6200ED9D8C /* ReviewedTableViewController.swift */,
-				0548174C20BDDA3000ED9D8C /* PrefrencesViewController.swift */,
 				0548174A20BDDA2000ED9D8C /* FavoritesTableViewController.swift */,
 			);
 			path = HiringManager;
@@ -177,6 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				058F04EB20BDF0A7004A4EEB /* Recruiter.storyboard */,
+				05998FFB20C044C50019809F /* SlatesTableViewController.swift */,
+				05998FFD20C044D60019809F /* NewSlateViewController.swift */,
+				05998FFF20C044E50019809F /* RecievedTableViewController.swift */,
 			);
 			path = Recruiter;
 			sourceTree = "<group>";
@@ -326,12 +335,15 @@
 				0548175320BDDA6200ED9D8C /* ReviewedTableViewController.swift in Sources */,
 				0548174320BDD2F700ED9D8C /* MainViewController.swift in Sources */,
 				0548174920BDDA0500ED9D8C /* IndividualViewController.swift in Sources */,
+				05998FFC20C044C50019809F /* SlatesTableViewController.swift in Sources */,
 				0548174720BDD9E100ED9D8C /* MenuTableViewController.swift in Sources */,
 				0548174520BDD9D200ED9D8C /* RequestsTableViewController.swift in Sources */,
 				0548174120BDD2A500ED9D8C /* LogInViewController.swift in Sources */,
+				0599900020C044E50019809F /* RecievedTableViewController.swift in Sources */,
 				0548174D20BDDA3000ED9D8C /* PrefrencesViewController.swift in Sources */,
 				0548174B20BDDA2000ED9D8C /* FavoritesTableViewController.swift in Sources */,
 				0548170F20BDC5DD00ED9D8C /* AppDelegate.swift in Sources */,
+				05998FFE20C044D60019809F /* NewSlateViewController.swift in Sources */,
 				0548174F20BDDA3900ED9D8C /* SettingsViewController.swift in Sources */,
 				058EFBD420BEE23B00AB6306 /* Temp_DataModel.swift in Sources */,
 			);
